@@ -5,6 +5,8 @@ import React from 'react';
 
 const Form = ({value,handleChange,handleSubmit,handleClick}) => {
     const { name,email,password,phone,address, error ,toggle} = value;
+    const fields = [name,email,password,phone,address];
+    const toggleSubmitButton = fields.every(value => Boolean(value) === true);
     return (
         
         <>
@@ -62,7 +64,10 @@ const Form = ({value,handleChange,handleSubmit,handleClick}) => {
                 placeholder="Enter your address">
                 </textarea>
                 {error.address ? <span>Cannot be empty</span> : ''}
-                <button className="submit" onClick={handleSubmit}>Submit</button> 
+                {toggleSubmitButton ? 
+                    <button className="submit" onClick={handleSubmit}>Submit</button>  : <button className="submit"> Submit</button>
+            }
+                
                 
             </div>
         </>

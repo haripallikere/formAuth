@@ -82,7 +82,7 @@ class App extends Component {
   }
 
   render() {
-    
+   const {name,email,phone,password,address} = this.state 
     const {shouldDisplayUserData} = this.state;
     return(
       <>
