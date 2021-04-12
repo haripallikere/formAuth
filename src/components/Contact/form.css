@@ -1,0 +1,86 @@
+.form {
+    border-radius: 15px;
+    color: rgb(207, 202, 202);
+    margin: 50px auto;
+    padding: 15px;
+    width: 350px;
+    border: 1px solid ;
+    
+}
+
+.submit {
+    display: block;
+    border-radius: 5px;
+    border-color: rgb(207, 202, 202);
+    color: grey;
+    padding: 10px;
+    border: 1px solid;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 180px;
+    font-size: medium;
+
+}
+
+p{
+    font-size: medium;
+    color: grey;
+}
+
+.textarea {
+    width: 345px;
+    height: 50px;
+    border-color: rgb(207, 202, 202);
+    border-radius: 3px;
+}
+
+.textareaError {
+    width: 345px;
+    height: 50px;
+    border-color: red;
+    border-radius: 3px;
+}
+
+.input {
+    margin: 0 auto;
+    width: 340px;
+    border-style: none;
+    border: 1px solid rgb(207, 202, 202);
+    height: 25px;
+    border-radius: 3px;
+    padding: 5px;
+    color: rgb(26, 25, 25);
+    font-size: medium;
+}
+
+.error {
+    border: 2px solid red;
+    margin: 0 auto;
+    width: 340px;
+    /* border-style: none; */
+    height: 25px;
+    border-radius: 3px;
+    padding: 5px;
+    color: rgb(26, 25, 25);
+    font-size: medium;
+}
+
+span {
+    margin-top: 1px;
+    padding: 5px;
+    /* float: left; */
+    /* border: 1px solid rgb(230, 83, 83); */
+    color: red;
+    border-radius: 5px;
+}
+
+.toggle {
+    margin-top: 3px;
+    padding: 2px;;
+    height: 10px;
+    width: 10px;
+    border: 1px solid grey;
+}
+
+
+

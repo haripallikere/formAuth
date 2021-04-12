@@ -1,0 +1,9 @@
+.userData {
+    height: 500px;
+    width: 500px;
+    border: 1px solid grey;
+    text-align: center;
+    overflow: auto;
+    margin-top: 50px;
+    margin: 0 auto;
+}
